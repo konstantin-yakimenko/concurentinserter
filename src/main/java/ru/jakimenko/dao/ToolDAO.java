@@ -7,7 +7,6 @@ import ru.jakimenko.model.Testdata;
 import ru.jakimenko.model.Testdataclosed;
 
 /**
- *
 CREATE DATABASE  IF NOT EXISTS `mytest` / *!40100 DEFAULT CHARACTER SET utf8 * /;
 USE `mytest`;
 
@@ -29,7 +28,6 @@ CREATE TABLE IF NOT EXISTS mytest.`Testdataclosed` (
  PRIMARY KEY (`testdataclosed_id`),
  KEY `idx_customer_id_testdatatype_id` (`customer_id`,`testdatatype_id`)
  ) ENGINE=InnoDB AUTO_INCREMENT=20000000 DEFAULT CHARSET=utf8;
-
  *
  * @author kyyakime
  */
