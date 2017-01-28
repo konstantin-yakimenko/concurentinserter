@@ -1,0 +1,4 @@
+/target/
+.idea
+concurentinserter.iml
+dependency-reduced-pom.xml
