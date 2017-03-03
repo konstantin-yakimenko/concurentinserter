@@ -39,5 +39,4 @@ public class Mytaskclose implements Callable<Integer> {
         }
         return 0;
     }
-    
 }
