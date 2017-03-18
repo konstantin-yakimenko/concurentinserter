@@ -14,4 +14,8 @@ public class Total {
     public void setSum(int sum) {
         this.sum = sum;
     }
+
+    public int calc(int i) {
+        return i*5;
+    }
 }

@@ -18,6 +18,7 @@ public class Mytask implements Callable<Integer> {
     private static final Logger LOG = LogManager.getLogger(Mytask.class);
 
     private final ToolDAO toolDAO;
+    private Total total;
 
     public Mytask() {
         ApplicationContextUnit.load();
@@ -43,5 +44,16 @@ public class Mytask implements Callable<Integer> {
         }
         return 0;
     }
-    
+
+    public void setTotal(Total total) {
+        this.total = total;
+    }
+
+    public Total getTotal() {
+        return total;
+    }
+
+    public int calc(int i) {
+        return 2 * total.calc(i);
+    }
 }
